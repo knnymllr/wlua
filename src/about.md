@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: About
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 
 Founded in 1990

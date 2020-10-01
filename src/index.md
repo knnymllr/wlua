@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: Home
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 # To Do
 

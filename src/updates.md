@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: Updates
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 # nothing
 ## here

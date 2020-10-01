@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: Resources
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 
 # nothing

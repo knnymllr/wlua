@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: Spotlight
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 
 Kat: Next up for Feature Friday is Kathryn Miller, a new official to our board and one of our new Members-at-Large. Know someone who might be interested in officiating? Email wluatraining@gmail.com for more information!

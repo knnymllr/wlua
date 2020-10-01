@@ -1,7 +1,7 @@
 ---
 tags: nav
 title: Photos
-layout: layouts/default.liquid
+layout: layouts/base
 ---
 
 # nothing
