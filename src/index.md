@@ -3,10 +3,6 @@ tags: nav
 title: Home
 layout: layouts/base
 ---
-# Scope of Work
-
-<a href="wlua-sow.pdf.zip" download="wlua-sow.pdf.zip">Download</a>
-
 
 # To Do
 
