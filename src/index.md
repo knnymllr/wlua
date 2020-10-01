@@ -3,9 +3,14 @@ tags: nav
 title: Home
 layout: layouts/base
 ---
+# Scope of Work
+
+<a href="wlua-sow.pdf.zip" download="wlua-sow.pdf.zip">Download</a>
+
+
 # To Do
 
-Send all text and image content to <knnthrmllr@gmail.com>.
+Send all text and image content to <knnthrmllr@gmail.com> by 11/1/2020.
 
 Set up new Gmail for WLUA and provide login credentials.  I will use this information to make a public events calendar that you can edit and update at anytime.  **I will not save this information** and I encourage you to change the password at the conclusion of the project.
 
