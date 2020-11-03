@@ -1,8 +1,9 @@
 ---
 tags: nav
-title: Spotlight
+title: Media
 layout: layouts/base
 ---
+# Spotlight
 
 Kat: Next up for Feature Friday is Kathryn Miller, a new official to our board and one of our new Members-at-Large. Know someone who might be interested in officiating? Email wluatraining@gmail.com for more information!
 
@@ -17,3 +18,11 @@ Katie: Meet Katie Morton, an at-large board member! She officiated the state sem
 Erika: Next up in our Official Spotlight series is Erika Burns, our secretary! A fun fact about Erika is that she plays in an adult lacrosse league to keep involved as a player.
 
 Cathy: Welcome to our new Official Spotlight series, in which we'll profile one of our WLUA officials. To start us off, meet Cathy Russo, our WLUA Board Chair!
+
+# Photos
+
+# Videos
+
+Follow us on [Facebook](https://facebook.com/WLUAcommunity)
+
+

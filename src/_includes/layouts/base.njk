@@ -1,21 +1,25 @@
 <!doctype html>
 <html lang = en>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> {{ site.name }} </title>
-  <meta name="author" content="{{ site.author }}">
-  <meta name="description" content="{{ site.description }}">
-  <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> {{ title }} | {{ site.name }} </title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maven+Pro">
 </head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+
 
 {% include "partials/nav.html" %}
-    <body>
-        <main>
+    <body class="wlua-body">
+        <img class="top-img" src="{{ image }}" alt="Washington Lacrosse Umpires Association"/>
+        <main class="wlua-main">
             {{ content | safe }}
         </main>
+
         <script src="/js/main.js"></script>
        
     </body>

@@ -1,9 +1,24 @@
 <header>
-  <nav>
-      <ul class="navbar">
+  <!-- banner -->
+
+  <div class="header-banner">
+    <a href="/checklist">
+      <p>{{site.banner}}</p>
+    </a>
+  </div>
+
+  <!-- navigation -->
+  <div class="header-contain" id="top">
+    <div class="header-home">
+     <!-- <a href="/"><h1>Washington Lacrosse Umpires Association</h1></a> -->
+      <a href="/"><img src="/img/wlua-logo.jpg"/></a>
+    </div>
+    <nav class="header-navbar">
+      <ul class="nav-list">
         {%- for nav in collections.nav -%}
         <li class= "nav-item"><a class= "nav-link" href="{{ nav.url }}">{{ nav.data.title }}</a></li>
         {%- endfor -%}
       </ul>
-  </nav>
+    </nav>
+  </div> 
 </header>

@@ -1,34 +1,122 @@
-body {
-  font-family: 'Mulish';
+$blue: #1028af;
+
+* {
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
+main {
   line-height: 1.5;
   margin:2.5% 10%;
 }
 
-.navbar {
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* banner */
+
+.header-banner {
+  background:$blue;
+  text-align:center;
+  box-shadow:0;
+  transition: box-shadow ease-in-out .1s, opacity ease-in-out .25s;
+}
+
+.header-banner a {
+  color:white;
+  text-decoration: none;
+}
+
+.header-banner p {
+  font-size: 1rem;
+}
+
+.header-banner:hover {
+  box-shadow:0 0 30px rgba(81, 107, 252, 0.781);
+  opacity: 0.9;
+}
+
+.header-banner a:hover {
+  text-decoration:none;
+}
+
+.header-banner p {
+  padding:.5vw;
+}
+
+/* nav */
+
+.header-home img {
+  width: 80%;
+  height:auto;
+}
+
+
+.header-contain {
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin:2vw 0 1vw 0;
+}
+
+.header-navbar {
+  align-self:flex-end;
+  padding-right:2vw;
+}
+
+.nav-list {
   padding:0;
   margin:0;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items:center;
 }
 
-.navbar li {
+.nav-list li {
   text-transform: uppercase;
   list-style: none;
-  font-size:2vw;  
+  font-size:1.25rem;  
+  padding-left:2vw;
+  padding-bottom:1.5vw;
 }
 
 a {
   text-decoration:none;
-  color:blue;
+  color:$blue;
 }
 
 a:hover {
-  color: red;
+  text-decoration: underline;
 }
 
 p {
   font-size: 20px;
 }
 
+footer {
+  margin:0;
+  padding:0;
+  background:$blue;
+  color:white;
+}
+
+.footer-contain {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:2vw;
+}
+
+.footer-contain p {
+  align-self:flex-end;
+}
+
+.footer-link img {
+  margin:1vw;
+  height:36px;
+  width:36px;
+}

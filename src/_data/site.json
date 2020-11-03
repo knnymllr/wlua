@@ -2,7 +2,8 @@
     "name": "Washington Lacrosse Umpires Association",
     "url": "",
     "author": "Kenny Miller",
-    "description": "",
-    "favicon": "img/wlua.jpg"
-
+    "authorUrl": "https://github.com/knnymllr",
+    "description": "Washington Lacrosse Umpires Association news and resource portal",
+    "favicon": "/img/wlua.jpg",
+    "banner": "This is your site banner! What should it say?"
 }

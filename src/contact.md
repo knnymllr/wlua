@@ -1,8 +1,7 @@
 ---
 tags: nav
-title: Photos
+title: Contact
 layout: layouts/base
 ---
-
 
 
