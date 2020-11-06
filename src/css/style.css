@@ -26,12 +26,13 @@ img {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #0927d1;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #db7602;
 }
 
 p {
@@ -115,6 +116,10 @@ p {
   font-size: 1.25rem;
   padding-left: 2vw;
   padding-bottom: 1.5vw;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 /* footer */

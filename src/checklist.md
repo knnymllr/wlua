@@ -14,7 +14,7 @@ image: /img/faceoff.jpg
 # Ideas 
 
 1. **Image quality**: Even at their original size, the images are blurry.  I can try to incorporate them in a different way but I would recommend using other images if possible.
-2. Combine `Rules & Resources` and `Youth` into one page.
+2. Combine [`Rules & Resources`](/resources) and [`Youth`](/youth) into one page.
 
 
 
