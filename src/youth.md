@@ -7,7 +7,7 @@ layout: layouts/base
 
 ## 2020 Girls Rules Summary
 
-Located in RESOURCE folder in Drive 
+![2020 Rules - Youth Girls](/img/2020-rules.pdf)
 
 ## Youth Girls Rules 
 
