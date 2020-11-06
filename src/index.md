@@ -8,7 +8,7 @@ image: /img/header.jpg
 
 # News & Announcements
 
-- Display up to 5 most recent from `Updates`
+- Display up to 5 most recent from [`Updates`](/updates)
 
 # Feedback
 
