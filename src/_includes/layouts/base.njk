@@ -15,7 +15,9 @@
 
 {% include "partials/nav.html" %}
     <body class="wlua-body">
-        <img class="top-img" src="{{ image }}" alt="Washington Lacrosse Umpires Association"/>
+        {% if image %}
+            <img class="top-img" src="{{ image }}" alt="Washington Lacrosse Umpires Association"/>
+        {% endif %}
         <main class="wlua-main">
             {{ content | safe }}
         </main>

@@ -1,19 +1,42 @@
-$blue: #1028af;
+$blue: #0927d1;
 
 * {
-  margin:0;
   box-sizing: border-box;
   font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
+code {
+  background: lightblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:105%;
+  padding:2px;
+}
+
+body {
+  margin: 0;
+}
+
 main {
   line-height: 1.5;
-  margin:2.5% 10%;
+  margin:2.5% 8%;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration:none;
+  color:$blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
 }
 
 /* banner */
@@ -22,16 +45,14 @@ img {
   background:$blue;
   text-align:center;
   box-shadow:0;
-  transition: box-shadow ease-in-out .1s, opacity ease-in-out .25s;
+  padding:.5vw;
+  transition: box-shadow ease-in-out .05s, opacity ease-in-out .25s;
 }
 
 .header-banner a {
   color:white;
   text-decoration: none;
-}
-
-.header-banner p {
-  font-size: 1rem;
+  padding: .5vw 35%;
 }
 
 .header-banner:hover {
@@ -43,17 +64,12 @@ img {
   text-decoration:none;
 }
 
-.header-banner p {
-  padding:.5vw;
-}
-
 /* nav */
 
 .header-home img {
-  width: 80%;
+  width: 100%;
   height:auto;
 }
-
 
 .header-contain {
   display:flex;
@@ -84,18 +100,7 @@ img {
   padding-bottom:1.5vw;
 }
 
-a {
-  text-decoration:none;
-  color:$blue;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-p {
-  font-size: 20px;
-}
+/* footer */
 
 footer {
   margin:0;
@@ -111,11 +116,18 @@ footer {
   padding:2vw;
 }
 
-.footer-contain p {
-  align-self:flex-end;
+.footer-link {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.footer-link img {
+.footer-link a {
+  color:white;
+  font-size: 1.25rem;
+}
+
+.footer-icon img {
   margin:1vw;
   height:36px;
   width:36px;

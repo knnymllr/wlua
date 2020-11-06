@@ -1,13 +1,23 @@
 * {
-  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
+code {
+  background: lightblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 105%;
+  padding: 2px;
+}
+
+body {
+  margin: 0;
+}
+
 main {
   line-height: 1.5;
-  margin: 2.5% 10%;
+  margin: 2.5% 8%;
 }
 
 img {
@@ -15,25 +25,36 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #0927d1;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+}
+
 /* banner */
 .header-banner {
-  background: #1028af;
+  background: #0927d1;
   text-align: center;
   -webkit-box-shadow: 0;
           box-shadow: 0;
-  -webkit-transition: opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .1s;
-  transition: opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .1s;
-  transition: box-shadow ease-in-out .1s, opacity ease-in-out .25s;
-  transition: box-shadow ease-in-out .1s, opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .1s;
+  padding: .5vw;
+  -webkit-transition: opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .05s;
+  transition: opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .05s;
+  transition: box-shadow ease-in-out .05s, opacity ease-in-out .25s;
+  transition: box-shadow ease-in-out .05s, opacity ease-in-out .25s, -webkit-box-shadow ease-in-out .05s;
 }
 
 .header-banner a {
   color: white;
   text-decoration: none;
-}
-
-.header-banner p {
-  font-size: 1rem;
+  padding: .5vw 35%;
 }
 
 .header-banner:hover {
@@ -46,13 +67,9 @@ img {
   text-decoration: none;
 }
 
-.header-banner p {
-  padding: .5vw;
-}
-
 /* nav */
 .header-home img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
@@ -100,23 +117,11 @@ img {
   padding-bottom: 1.5vw;
 }
 
-a {
-  text-decoration: none;
-  color: #1028af;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-p {
-  font-size: 20px;
-}
-
+/* footer */
 footer {
   margin: 0;
   padding: 0;
-  background: #1028af;
+  background: #0927d1;
   color: white;
 }
 
@@ -134,12 +139,25 @@ footer {
   padding: 2vw;
 }
 
-.footer-contain p {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+.footer-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.footer-link img {
+.footer-link a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+.footer-icon img {
   margin: 1vw;
   height: 36px;
   width: 36px;

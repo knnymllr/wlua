@@ -8,7 +8,9 @@ image: /img/header.jpg
 
 # News & Announcements
 
+- Display up to 5 most recent from `Updates`
+
 # Feedback
 
-- Officials (Peer to peer)
-- Coaches/Players/Admins
+- Officials form (Peer to peer)
+- Coaches/Players/Admins form
