@@ -4,6 +4,11 @@ title: Home
 layout: layouts/index
 image: /img/header.jpg
 ---
+
+# Blue
+
+![blue](/img/blue.png)
+
 # COVID Waiver
 
 # News & Announcements
