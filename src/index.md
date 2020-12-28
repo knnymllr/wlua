@@ -5,17 +5,15 @@ layout: layouts/index
 image: /img/header.jpg
 ---
 
-# Blue
+# News & Announcements 
+- [Pre-season Checklist](https://wwloa.org/season-ready-checklist) 
+- COVID
+- VHSL
+- USL
 
-![blue](/img/blue.png)
+# Local Board Meeting Dates
+- Date/Time
+- Date/Time
+- Date/Time
+- **Annual Meeting**: Date/Time
 
-# COVID Waiver
-
-# News & Announcements
-
-- Display up to 5 most recent from [`Updates`](/updates)
-
-# Feedback
-
-- Officials form (Peer to peer)
-- Coaches/Players/Admins form

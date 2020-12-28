@@ -1,6 +1,6 @@
 ---
 tags: nav
-title: Rules & Resources
+title: Resources
 layout: layouts/base
 ---
 

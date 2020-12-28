@@ -1,21 +1,21 @@
 <header>
-  <!-- banner -->
-
   <div class="header-banner" id="top">
-    <a href="/checklist">{{site.banner}}</a>
+    <p>{{site.banner}} Are you <a href="/checklist">under</a> or <a href="/checklist">over</a> 18?</p>
   </div>
 
   <!-- navigation -->
   <div class="header-contain">
     <div class="header-home">
-     <!-- <a href="/"><h1>Washington Lacrosse Umpires Association</h1></a> -->
       <a href="/"><img src="/img/wlua-logo.jpg"/></a>
     </div>
-    <nav class="header-navbar">
+    <nav>
       <ul class="nav-list">
-        {%- for nav in collections.nav -%}
-        <li class= "nav-item"><a class= "nav-link" href="{{ nav.url }}">{{ nav.data.title }}</a></li>
-        {%- endfor -%}
+        <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="/youth">Youth Officiating</a></li>
+        <li class="nav-item"><a class="nav-link" href="/training">Training</a></li>
+        <li class="nav-item"><a class="nav-link" href="/rules">Rules</a></li>
+        <li class="nav-item"><a class="nav-link" href="/resources">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="/media">Media</a></li>
       </ul>
     </nav>
   </div> 

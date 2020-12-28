@@ -1,6 +1,4 @@
 ---
-tags: nav
-title: Media
 layout: layouts/base
 ---
 # Photos

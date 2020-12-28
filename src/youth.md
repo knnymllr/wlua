@@ -1,6 +1,6 @@
 ---
 tags: nav
-title: Youth
+title: Youth Officiating
 layout: layouts/base
 ---
 # Rules & Resources
