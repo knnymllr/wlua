@@ -4,6 +4,7 @@ $orange: #db7602;
 * {
   box-sizing: border-box;
   font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeSpeed;
 }
 
 code {
@@ -32,14 +33,14 @@ a {
   color:$blue;
 }
 
-a:hover {
-  text-decoration: underline;
-  color:$orange;
-}
-
 a:focus {
   outline:1px dashed $orange;
   outline-offset: 2px;
+}
+
+button {
+  font: inherit;
+  padding:0;
 }
 
 h1 {
@@ -47,8 +48,19 @@ h1 {
 }
 
 p, li {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
+
+summary {
+  font-size:2rem;
+  cursor: pointer;
+}
+
+summary::marker {
+  font-size:1.5rem;
+}
+
+
 
 /* banner */
 
@@ -98,13 +110,24 @@ nav {
   margin-right:3vw;
 }
 
-
 .nav-item {
   text-transform: uppercase;
   list-style: none;
-  font-size:1rem; 
   margin:10px;
   align-self:flex-end;
+}
+
+.nav-item:before {
+  content: "\200B"; 
+}
+
+.top-lvl {
+  background:none;
+  border:0;
+  cursor:pointer;
+  text-align:left;
+  text-transform:uppercase;
+  color:$blue;
 }
 
 .nav-link {

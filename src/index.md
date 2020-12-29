@@ -5,7 +5,7 @@ layout: layouts/index
 image: /img/header.jpg
 ---
 
-# News & Announcements 
+# Announcements 
 - [Pre-season Checklist](https://wwloa.org/season-ready-checklist) 
 - COVID
 - VHSL
