@@ -16,6 +16,10 @@ body {
   margin: 0;
 }
 
+details {
+  cursor: pointer;
+}
+
 main {
   line-height: 1.5;
   margin: 2.5% 8%;
