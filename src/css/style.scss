@@ -21,6 +21,7 @@ body {
 main {
   line-height: 1.5;
   margin:2.5% 8%;
+  height:100vh;
 }
 
 img {
@@ -38,6 +39,10 @@ a:focus {
   outline-offset: 2px;
 }
 
+a:hover {
+  color:$orange;
+}
+
 button {
   font: inherit;
   padding:0;
@@ -51,15 +56,31 @@ p, li {
   font-size: 1rem;
 }
 
-summary {
+main summary {
   font-size:2rem;
   cursor: pointer;
 }
 
-summary::marker {
+main summary::marker {
   font-size:1.5rem;
 }
 
+nav summary {
+  color:$blue;
+}
+
+nav summary:hover {
+  color:$orange;
+}
+
+details ul {
+  padding-left:20px;
+}
+
+details li {
+  text-transform: uppercase;
+  list-style: none; 
+}
 
 
 /* banner */
@@ -119,15 +140,6 @@ nav {
 
 .nav-item:before {
   content: "\200B"; 
-}
-
-.top-lvl {
-  background:none;
-  border:0;
-  cursor:pointer;
-  text-align:left;
-  text-transform:uppercase;
-  color:$blue;
 }
 
 .nav-link {
