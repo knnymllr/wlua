@@ -6,14 +6,19 @@ image: /img/header.jpg
 ---
 
 # Announcements 
-- [Pre-season Checklist](https://wwloa.org/season-ready-checklist) 
-- COVID
-- VHSL
-- USL
+- Mandatory Meeting, March 1, 2021
+- VHSL link rules 2021 season
+- USL rules video link
 
-# Local Board Meeting Dates
-- Date/Time
-- Date/Time
-- Date/Time
-- **Annual Meeting**: Date/Time
+# Important Dates
+- Mandatory Annual Meeting, March 1, 2021
+- Adult spring training classes: (link to adult training page)
+    - February 22, 2021
+    - March 2, 2021
+    - March 15, 2021
+- Youth Spring field training, March 7 (link to youth training page)
+- Start of NVYLL season, March 28
+- Start of HS season, April 26
+- Adult Fall training classes, TBD
+
 

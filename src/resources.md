@@ -1,0 +1,4 @@
+---
+layout: layouts/resources
+---
+# {{ title }}

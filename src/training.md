@@ -1,15 +1,15 @@
 ---
-layout: layouts/base
+layout: layouts/training
 tags: nav
 title: Training
 ---
+# Training Requirements
+- Be a US Lacrosse member
+- Attend training classes
+- Pass US Lacrosse annually
+- Attend field training dates for 2021 from [home](/) page
 
-# Steps to becoming official / annual renewal steps
-
-# Interested? (Form)
-
-# [Under 18?](/youth)
-
-# Training Dates
-
-# Adult Trainers
+# Annual Renewal Requirements
+- Be a US Lacrosse member
+- Pass US Lacrosse annually
+- Attend pre-season scrimages

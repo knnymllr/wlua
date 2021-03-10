@@ -1,22 +1,21 @@
 ---
 tags: nav
-title: Youth Officiating
-layout: layouts/base
+title: Junior Umpires
+layout: layouts/youth
 ---
-# Steps to becoming official / annual renewal steps
+# Age requirements
+* Freshman-juniors only 
+* Must be 15 before Jan 1 of your freshman
+* Must not be in your senior year 
 
-# Interested? (Form)
+# training requirements
+* Be a US Lacrosse member
+* Attend training classes
+* Pass US Lacrosse annually
+* Attend field training and pre-season scrimmages training dates
 
-# [Over 18?](/training)
-
-# Resources
-
-# Rules
-
-# Current Year PowerPoint
-
-# Youth Trainers
-
-# NVYLL
-
-[NVYLL](https://nvyll.org)
+# Annual renewal requirements
+* Be a US Lacrosse member
+* Pass US Lacrosse annually
+* Attend pre-season scrimmages
+* 2nd year official must have 2 hours of mandatory classroom training.

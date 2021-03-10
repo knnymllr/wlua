@@ -1,12 +1,14 @@
 ---
 tags: nav
 title: Rules
-layout: layouts/base
+layout: layouts/rules
 ---
-# New Rule Changes 
+2021 USL rules memo (hyperlink to new USL rules memo) 
 
-# Current Year PowerPoint
+2021 USL rules presentation / video (both hyperlinks) Girls' Rules | US Lacrosse
+
+2021 USL Equipment Reminders | [US Lacrosse](https://www.uslacrosse.org/blog/equipment-reminders-from-us-lacrosse)
+
+NVYLL Rules Document LEAGUE OPERATIONAL RULES & REGULATIONS
 
 # [NFHS](https://www.nfhs.org/activities-sports/lacrosse-girls/)
-
-# USLC 

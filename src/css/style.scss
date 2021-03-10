@@ -56,7 +56,7 @@ h1 {
 }
 
 p, li {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 main summary {
@@ -76,12 +76,13 @@ nav summary:hover {
   color:$orange;
 }
 
+
+
 details ul {
   padding-left:20px;
 }
 
 details li {
-  text-transform: uppercase;
   list-style: none; 
 }
 
@@ -141,9 +142,25 @@ nav {
   align-self:flex-end;
 }
 
-.nav-item:before {
-  content: "\200B"; 
-}
+// class for anchor tag
+.new-window::after {
+  content:"↗";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-left:3px;
+  line-height:0.75;
+  color: $blue;
+  } 
+
+  .new-window:hover::after {
+    color: $orange;
+  }
+
+  
+  li::before {
+    content: "\200B"; 
+  }
 
 .nav-link {
   text-decoration:none;
@@ -191,6 +208,17 @@ nav {
 .mailto-link:focus .mailto-message,
 .mailto-link:focus-within .mailto-message {
 	display: block;
+}
+
+// rules lists
+
+.rules-lists li {
+  list-style: none;
+  font-size:1.5rem;
+}
+
+.rules-lists span {
+  font-size:1.75rem;
 }
 
 /* footer */
