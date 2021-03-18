@@ -5,10 +5,10 @@ layout: layouts/youth
 ---
 # Age requirements
 * Freshman-juniors only 
-* Must be 15 before Jan 1 of your freshman
+* Must be 15 before Jan 1 of your freshman year
 * Must not be in your senior year 
 
-# training requirements
+# Training Requirements
 * Be a US Lacrosse member
 * Attend training classes
 * Pass US Lacrosse annually
