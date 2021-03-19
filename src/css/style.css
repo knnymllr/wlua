@@ -51,7 +51,7 @@ button {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 p, li {
@@ -242,8 +242,15 @@ footer {
 }
 
 .footer-icon {
-  height: 60px;
-  width: 60px;
+  height: 36px;
+  width: 36px;
+  border-radius: 150px;
+}
+
+.footer-icon:hover {
+  background-color: #db7602e3;
+  -webkit-box-shadow: 0 0 5px #db7602;
+          box-shadow: 0 0 5px #db7602;
 }
 
 .footer-contain {
@@ -254,15 +261,50 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2vw;
+}
+
+.footer-link {
+  width: 80%;
+}
+
+.footer-link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2vw;
+  padding-bottom: 1.5vw;
+}
+
+.footer-link li::before {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer-link li {
+  list-style: none;
 }
 
 .footer-link a {
   display: block;
   padding: 0;
+  text-decoration: none;
 }
 
 .footer-link a:hover {
@@ -270,7 +312,7 @@ footer {
 }
 
 .footer-icon img {
-  margin: 1vw;
+  margin: 0;
   height: 36px;
   width: 36px;
 }
