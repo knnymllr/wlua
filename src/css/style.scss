@@ -219,6 +219,45 @@ nav {
   font-size:1.75rem;
 }
 
+.index {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:5vw;
+}
+
+.index-contact {
+  width:45%;
+}
+
+.index-contact p {
+  text-align:center;
+  font-size:1.5rem;
+}
+
+
+.index-updates h1, .index-contact h1 {
+  margin:0;
+  padding:20px;
+  font-size: 3.5rem;
+  background:$blue;
+  border:2px solid white;
+  outline:2px solid $orange;
+  color:white;
+  text-align: center;
+}
+
+.index-updates ul {
+  padding:2vw;
+  
+}
+
+.index-updates li {
+  list-style:none;
+  font-size:1.5rem;
+  padding:.5vw;
+}
+
 /* footer */
 
 footer {
