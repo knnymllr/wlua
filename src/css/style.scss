@@ -1,4 +1,5 @@
 $blue: #0927d1;
+$blue-light: #0927d19a;
 $orange: #db7602;
 $light-or:#db7602e3;  
 
@@ -208,16 +209,7 @@ nav {
 	display: block;
 }
 
-// rules lists
-
-.rules-lists li {
-  list-style: none;
-  font-size:1.5rem;
-}
-
-.rules-lists span {
-  font-size:1.75rem;
-}
+// index
 
 .index {
   display:flex;
@@ -227,7 +219,9 @@ nav {
 }
 
 .index-contact {
-  width:45%;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 .index-contact p {
@@ -235,6 +229,9 @@ nav {
   font-size:1.5rem;
 }
 
+.index-form {
+  width:100%;
+}
 
 .index-updates h1, .index-contact h1 {
   margin:0;
@@ -258,11 +255,88 @@ nav {
   padding:.5vw;
 }
 
+// about
+
+.about summary, .about details {
+  font-size:1.75rem;
+}
+
+.about p {
+  margin:0;
+  padding:0;
+}
+
+.about-bio {
+  text-align:justify;
+  text-justify: inter-word;
+  background-color: rgba(150, 150, 150, 0.034);
+  padding:75px;
+  border:12px $blue solid;
+  outline:5px $orange solid;
+  outline-offset: -40px;
+  margin:5vw 0 ;
+  width:100%;
+}
+
+.about-contact {
+  margin:2vw 0 5vw 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.about-contact ul {
+  list-style:none;
+  padding:0;
+}
+
+.about-contact li {
+  font-size:1rem;
+}
+
+.awards h1 {
+  margin:0;
+  margin-bottom:5vw;
+  padding:20px;
+  font-size: 3.5rem;
+  background:$blue;
+  border:2px solid white;
+  outline:2px solid $orange;
+  color:white;
+  text-align: center;
+}
+
+.awards h2 {
+  font-size:2.25rem;
+}
+
+.awards p {
+  margin-bottom:25px;
+}
+
+// rules 
+
+.rules-lists li {
+  list-style: none;
+  font-size:1.5rem;
+}
+
+.rules-lists span {
+  font-size:1.75rem;
+}
+
+// resources
+
+// training
+
+// youth
+
 /* footer */
 
 footer {
   margin:0;
   padding:0;
+  margin-top:5vw;
   background:$blue;
   color:white;
 }
