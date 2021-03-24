@@ -19,7 +19,7 @@
     <body class="wlua-body">
         {% include "partials/nav.html" %}
         {% if image %}
-            <img class="top-img" src="{{ image }}" alt="Washington Lacrosse Umpires Association"/>
+            <div class="top-img-cont"><img class="top-img" src="{{ image }}" alt="Washington Lacrosse Umpires Association"/></div>
         {% endif %}
         <main class="wlua-main">
             {{ content | safe }}

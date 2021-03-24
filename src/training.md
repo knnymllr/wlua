@@ -2,6 +2,7 @@
 layout: layouts/training
 tags: nav
 title: Training
+image: /img/header-two.jpg
 ---
 # Training Requirements
 - Be a US Lacrosse member

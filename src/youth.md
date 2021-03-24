@@ -2,6 +2,7 @@
 tags: nav
 title: Junior Umpires
 layout: layouts/youth
+image: /img/faceoff.jpg
 ---
 # Age requirements
 * Freshman-juniors only 
