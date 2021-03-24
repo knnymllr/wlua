@@ -232,9 +232,8 @@ li::before {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-top: 5vw;
 }
 
@@ -293,12 +292,7 @@ li::before {
 .about-bio {
   text-align: justify;
   text-justify: inter-word;
-  background-color: rgba(150, 150, 150, 0.034);
-  padding: 75px;
-  border: 12px #0927d1 solid;
-  outline: 5px #db7602 solid;
-  outline-offset: -40px;
-  margin: 5vw 0;
+  margin-top: 5vw;
   width: 100%;
 }
 

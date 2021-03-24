@@ -2,6 +2,7 @@
 tags: nav
 title: Rules
 layout: layouts/rules
+image: /img/faceoff.jpg
 ---
 2021 USL rules memo (hyperlink to new USL rules memo) 
 

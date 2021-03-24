@@ -214,7 +214,7 @@ nav {
 .index {
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top:5vw;
 }
 
@@ -269,12 +269,7 @@ nav {
 .about-bio {
   text-align:justify;
   text-justify: inter-word;
-  background-color: rgba(150, 150, 150, 0.034);
-  padding:75px;
-  border:12px $blue solid;
-  outline:5px $orange solid;
-  outline-offset: -40px;
-  margin:5vw 0 ;
+  margin-top:5vw;
   width:100%;
 }
 
