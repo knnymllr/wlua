@@ -20,3 +20,5 @@ image: /img/faceoff.jpg
 * Pass US Lacrosse annually
 * Attend pre-season scrimmages
 * 2nd year official must have 2 hours of mandatory classroom training.
+
+[Over 18?](/training)

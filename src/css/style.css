@@ -345,6 +345,20 @@ li::before {
   margin-bottom: 25px;
 }
 
+.rules-lists {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 60% 40%;
+      grid-template-rows: 60% 40%;
+  -ms-grid-columns: 32% 68%;
+      grid-template-columns: 32% 68%;
+  margin: 15px;
+}
+
+.rules-lists ul {
+  padding: 0;
+}
+
 .rules-lists li {
   list-style: none;
   font-size: 1.5rem;
@@ -354,11 +368,91 @@ li::before {
   font-size: 1.75rem;
 }
 
+.rules-stretch {
+  -ms-grid-column: -3;
+      grid-column-start: -3;
+  grid-column-end: -1;
+}
+
+.resources {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.resources h1 {
+  font-size: 2.5rem;
+}
+
+.resources h2 {
+  font-size: 2rem;
+  margin-bottom: 1px;
+}
+
+.resources p {
+  margin-top: 0;
+}
+
+.res-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.res-left ul, .training ul, .youth-md ul {
+  padding: 0;
+}
+
+.res-left li, .training li, .youth li {
+  list-style: none;
+}
+
+.res-feedback h1, .adult-form h1, .youth-form h1 {
+  padding-left: 30px;
+}
+
+.training {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.youth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 /* footer */
 footer {
   margin: 0;
   padding: 0;
-  margin-top: 5vw;
+  margin-top: 2.5vw;
   background: #0927d1;
   color: white;
 }

@@ -14,3 +14,5 @@ image: /img/header-two.jpg
 - Be a US Lacrosse member
 - Pass US Lacrosse annually
 - Attend pre-season scrimages
+
+[Under 18?](/youth)
