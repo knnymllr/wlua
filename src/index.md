@@ -5,11 +5,6 @@ layout: layouts/index
 image: /img/header.jpg
 ---
 
-# Announcements 
-- Mandatory Meeting, March 1, 2021
-- VHSL link rules 2021 season (?)
-- USL rules video link (?)
-
 # Important Dates
 - Mandatory Annual Meeting, March 1, 2021
 - [Adult Spring](/training) training classes
