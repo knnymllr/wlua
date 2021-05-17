@@ -2,6 +2,30 @@
   console.log('|_* ~ *_| Welcome to the WLUA website |_* ~ *_|');
 })();
 
+(function() {
+    // Mobile Menu
+    
+    const $menuButton = document.querySelector("#nav-button");
+    const $menu = document.querySelector("#header-nav");
+
+  
+    let menuOpen = false;
+  
+    $menuButton.addEventListener("click", event => {
+      if (menuOpen) {
+        menuOpen = false;
+        $menuButton.setAttribute("aria-expanded", "false");
+        $menu.style.display = 'none';
+        
+      } else {
+        menuOpen = true;
+        $menuButton.setAttribute("aria-expanded", "true");
+        $menu.style.display = 'flex';
+        
+      }
+    });
+  })();
+
 $(document).ready(function() {
 	
 	// Add class to mailto link

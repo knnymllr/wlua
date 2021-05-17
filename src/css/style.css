@@ -2,13 +2,13 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
   text-rendering: optimizeSpeed;
 }
 
 code {
   background: lightblue;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 105%;
   padding: 2px;
 }
@@ -29,6 +29,10 @@ main {
 img {
   width: 100%;
   height: auto;
+}
+
+.top-img {
+  display: block;
 }
 
 .top-img-cont {
@@ -59,7 +63,8 @@ h1 {
   font-size: 2.25rem;
 }
 
-p, li {
+p,
+li {
   font-size: 1.25rem;
 }
 
@@ -70,14 +75,6 @@ main summary {
 
 main summary::marker {
   font-size: 1.5rem;
-}
-
-nav summary {
-  color: #0927d1;
-}
-
-nav summary:hover {
-  color: #db7602;
 }
 
 details ul {
@@ -93,10 +90,11 @@ details li {
   background: #0927d1;
   color: white;
   text-align: center;
-  padding: .5vw;
+  padding: 0.5vw;
 }
 
-.header-banner a, .footer-link a {
+.header-banner a,
+.footer-link a {
   color: white;
 }
 
@@ -162,7 +160,7 @@ nav {
 
 .new-window::after {
   content: "↗";
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-style: normal;
   padding-left: 3px;
@@ -206,7 +204,7 @@ li::before {
 }
 
 .mailto-message:after, .mailto-message:before {
-  content: '';
+  content: "";
 }
 
 .mailto-message:before {
@@ -265,7 +263,8 @@ li::before {
   width: 100%;
 }
 
-.index-updates h1, .index-contact h1 {
+.index-updates h1,
+.index-contact h1 {
   margin: 0;
   padding: 20px;
   font-size: 3.5rem;
@@ -283,10 +282,11 @@ li::before {
 .index-updates li {
   list-style: none;
   font-size: 1.5rem;
-  padding: .5vw;
+  padding: 0.5vw;
 }
 
-.about summary, .about details {
+.about summary,
+.about details {
   font-size: 1.75rem;
 }
 
@@ -406,15 +406,21 @@ li::before {
           flex-direction: column;
 }
 
-.res-left ul, .training ul, .youth-md ul {
+.res-left ul,
+.training ul,
+.youth-md ul {
   padding: 0;
 }
 
-.res-left li, .training li, .youth li {
+.res-left li,
+.training li,
+.youth li {
   list-style: none;
 }
 
-.res-feedback h1, .adult-form h1, .youth-form h1 {
+.res-feedback h1,
+.adult-form h1,
+.youth-form h1 {
   padding-left: 30px;
 }
 
@@ -496,7 +502,6 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 1.5vw;
 }
 
 .footer-link li::before {
@@ -527,5 +532,94 @@ footer {
   margin: 0;
   height: 36px;
   width: 36px;
+}
+
+.copy {
+  font-size: 0.75rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.nav-button {
+  display: none;
+  background: none;
+  color: #0927d1;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 0;
+  border-top: 4px solid #0927d1;
+  padding: 0;
+  padding-top: 6px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.nav-button::before {
+  content: "";
+  display: block;
+  border-top: 4px solid #0927d1;
+  padding-top: 2px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .header-contain {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main {
+    margin: 2.5% 20%;
+  }
+  .top-img-cont {
+    max-height: 600px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  img {
+    width: auto;
+    height: 225px;
+  }
+  .nav-button {
+    display: block;
+    margin-top: 35px;
+  }
+  .header-banner {
+    padding: 1.5vw;
+  }
+  .header-contain {
+    display: block;
+    padding: 3vw;
+  }
+  .header-contain img {
+    display: block;
+    height: 90px;
+    width: auto;
+    margin: 0;
+  }
+  nav {
+    display: none;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2vw;
+  }
+  .nav-item {
+    text-transform: uppercase;
+    list-style: none;
+    margin: 10px;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
 }
 /*# sourceMappingURL=style.css.map */
