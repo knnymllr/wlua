@@ -582,7 +582,7 @@ footer {
   .index-contact h1 {
     margin: 0;
     padding: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 
     text-align: center;
   }
@@ -600,6 +600,70 @@ footer {
     font-size: 1.5rem;
     padding: 0.5vw;
   }
+
+//about 
+
+
+.about summary,
+.about details {
+  font-size: 1.5rem;
+}
+
+.about-contact h1 {
+  font-size:1.75rem;
+}
+
+.about-bio {
+  text-align: justify;
+  text-justify:inter-character;
+  margin-top: 5vw;
+  width: 100%;
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: column;
+  margin-bottom:25px;
+}
+
+.about-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-contact li {
+  font-size: 1rem;
+}
+
+.awards {
+  margin-bottom:25px;
+}
+
+.awards h1 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background: $blue;
+  border: 2px solid white;
+  outline: 2px solid $orange;
+  color: white;
+  text-align: center;
+}
+
+.awards h2 {
+  font-size: 1.5rem;
+}
+
+.awards p {
+  font-size:1rem;
+  margin-bottom: 25px;
+}
+
+.awards details li {
+  font-size:1rem;
+}
+
 }
 
 @media only screen and (max-width: 550px) {
