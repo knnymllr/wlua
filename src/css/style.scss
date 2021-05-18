@@ -9,13 +9,6 @@ $light-or: #db7602e3;
   text-rendering: optimizeSpeed;
 }
 
-code {
-  background: lightblue;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 105%;
-  padding: 2px;
-}
-
 body {
   margin: 0;
 }
@@ -510,10 +503,10 @@ footer {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 850px) {
   img {
     width: auto;
-    height: 225px;
+    height: 325px;
   }
 
   //nav
@@ -545,7 +538,7 @@ footer {
 
   .nav-list {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin-top: 2vw;
   }
 
@@ -554,5 +547,70 @@ footer {
     list-style: none;
     margin: 10px;
     align-self: flex-end;
+  }
+
+  // footer
+
+  .footer-link {
+    display:none;
+  }
+
+  // index
+
+  .index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-contact p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .index-form {
+    width: 100%;
+  }
+
+  .index-updates h1,
+  .index-contact h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 2.5rem;
+
+    text-align: center;
+  }
+
+  .index-contact h1 {
+    width: 90%;
+  }
+
+  .index-updates ul {
+    padding: 2vw;
+  }
+
+  .index-updates li {
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 0.5vw;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .top-img-cont {
+    max-width: 100%;
+    overflow:hidden;
+  }
+
+  img {
+    width: auto;
+    height: 225px;
   }
 }
