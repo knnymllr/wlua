@@ -360,6 +360,10 @@ li::before {
   flex-direction: column;
 }
 
+.res-form {
+  width:100%;
+}
+
 .res-left ul,
 .training ul,
 .youth-md ul {
@@ -469,8 +473,6 @@ footer {
   padding: 1rem;
   margin: 0;
 }
-
-// hamburger
 
 // hamburger
 
@@ -669,6 +671,51 @@ footer {
 
 .awards details li {
   font-size:1rem;
+}
+
+// rules
+
+.rules-lists {
+  display: flex;
+  flex-direction: column;
+}
+
+.rules-lists ul {
+  padding: 0;
+}
+
+.rules-lists li {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.rules-lists span {
+  font-size: 1.5rem;
+}
+
+// resources
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resources h1 {
+  font-size: 1.75rem;
+}
+
+.resources h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1px;
+}
+
+// training & youth
+
+.training, .youth {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
 }
 
 }
