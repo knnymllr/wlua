@@ -5,23 +5,19 @@
 (function() {
     // Mobile Menu
     
-    const $menuButton = document.querySelector("#nav-button");
-    const $menu = document.querySelector("#header-nav");
+    const $menuButton = document.querySelector("#navbar__mobileButton");
+    const $menu = document.querySelector("#navbar__menu");
 
-  
     let menuOpen = false;
-  
+
     $menuButton.addEventListener("click", event => {
       if (menuOpen) {
         menuOpen = false;
-        $menuButton.setAttribute("aria-expanded", "false");
-        $menu.style.display = 'none';
+        $menu.classList.remove('active');
         
       } else {
         menuOpen = true;
-        $menuButton.setAttribute("aria-expanded", "true");
-        $menu.style.display = 'flex';
-        
+        $menu.classList.add('active');
       }
     });
   })();

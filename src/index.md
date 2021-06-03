@@ -12,11 +12,11 @@ image: /img/header.jpg
     - March 2, 2021
     - March 15, 2021
 - [Youth Spring](/youth) field training
-    - March 7
+    - March 7, 2021
 - Start of NVYLL season
-    - March 28
+    - March 28, 2021
 - Start of HS season 
-    - April 26
+    - April 26, 2021
 - [Adult Fall](/training) training classes
     - TBD
 

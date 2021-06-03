@@ -1,16 +1,16 @@
 ---
 layout: layouts/base
 ---
-<div class="training">
-    <div class="adult-form">
-        <h1>Interest Form</h1>
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSc0CAebr83YUyvRPgwpTSNlYA7lkt_Lh1nMkgD9jmpiGsfQ8g/viewform?embedded=true"
-                width="500" height="1450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        
-    </div>
-    <div class="training-md">
-        {{ content | safe }}
-    </div>
-    
+
+<div class="training">{{ content | safe }}</div>
+<div class="adult-form">
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSc0CAebr83YUyvRPgwpTSNlYA7lkt_Lh1nMkgD9jmpiGsfQ8g/viewform?embedded=true"
+    width="500"
+    height="1450"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    >Loading…</iframe
+  >
 </div>
