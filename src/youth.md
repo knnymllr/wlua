@@ -10,14 +10,14 @@ image: /img/faceoff.jpg
 * Must not be in your senior year 
 
 # Training Requirements
-* Be a US Lacrosse member
+* Be a USA Lacrosse member
 * Attend training classes
-* Pass US Lacrosse annually
+* Pass USA Lacrosse annually
 * Attend field training and pre-season scrimmages training dates
 
 # Annual renewal requirements
-* Be a US Lacrosse member
-* Pass US Lacrosse annually
+* Be a USA Lacrosse member
+* Pass USA Lacrosse annually
 * Attend pre-season scrimmages
 * 2nd year official must have 2 hours of mandatory classroom training.
 

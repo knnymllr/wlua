@@ -5,14 +5,14 @@ title: Training
 image: /img/header-two.jpg
 ---
 # Training Requirements
-- Be a US Lacrosse member
+- Be a USA Lacrosse member
 - Attend training classes
-- Pass US Lacrosse annually
+- Pass USA Lacrosse annually
 - Attend field training dates for 2021 from [home](/) page
 
 # Annual Renewal Requirements
-- Be a US Lacrosse member
-- Pass US Lacrosse annually
+- Be a USA Lacrosse member
+- Pass USA Lacrosse annually
 - Attend pre-season scrimages
 
 [Under 18?](/youth)
