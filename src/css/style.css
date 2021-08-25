@@ -295,6 +295,10 @@ li::before {
   }
 }
 
+.index h2 {
+  padding: 0 40px;
+}
+
 .index li, .index p {
   font-size: 1.3rem;
 }
