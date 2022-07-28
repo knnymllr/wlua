@@ -9,7 +9,7 @@
     "build": "npx @11ty/eleventy"
   },
   "keywords": [],
-  "author": "Burr Solutions",
+  "author": "WLUA",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
